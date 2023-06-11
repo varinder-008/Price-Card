@@ -1,0 +1,117 @@
+*{
+    top: 0;
+    left: 0;
+    font-family: 'Karla', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    padding: 20px;
+}
+.main-container{
+    position: relative;
+    width: 600px;
+    height: 400px;
+    box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.35);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.first-content{
+    padding-top: 18px;
+    position: absolute;
+    top: 0px;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 200px;
+    font-weight: 700;
+    
+}
+h3{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    padding-left: 40px;
+    color: hsl(179, 62%, 43%);
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+.hassle-free{
+    padding-left: 40px;
+    color: hsl(71, 73%, 54%);
+    padding-bottom: 7px;
+}
+.access{
+    color: hsl(218, 22%, 67%);
+    font-weight: 400;
+}
+.lower-section{
+    
+    position: absolute;
+    top: 200px;
+    margin: 0;
+    padding: 0;
+    height: 200px;
+    width: 100%;
+    color: white;
+}
+.second-content{
+    background-color: hsl(179, 51%, 50%);
+    width: 50%;
+    height: 200px;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 30px;
+    padding-left: 35px;
+    font-size: 14px;
+}
+.dollar{
+    font-size: 24px;
+    margin: 0;
+    margin-top: 14px;
+    
+}
+.per-month{
+    font-size: 14px;
+    position: relative;
+    top: -2px;
+    opacity: 0.6;
+}
+
+.second-content button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 30px;
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.35);
+    cursor: pointer;
+}
+
+.third-content{
+    background-color: hsl(179, 54%, 55%);
+    width: 50%;
+    height: 200px;
+    display: inline-block;
+    color: hsl(204, 43%, 93%);
+    font-size: 14px;
+}
+.third-content h3{
+    padding-top: 30px;
+    padding-left: 39px;
+    padding-bottom: 0%;
+}
+li{
+    list-style: none;
+    font-size: 13px;
+    line-height: 18px;
+    opacity: 0.9;
+}
+button:hover{
+    background-color: hsl(71, 74%, 59%) ;
+    transition: 0.5s;
+    text-decoration: underline;
+}
